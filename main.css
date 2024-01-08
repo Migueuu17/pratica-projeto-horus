@@ -1,0 +1,75 @@
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #6834d4;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #6834d4;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, .nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+
+
+.navbar-toggler {
+    background-color: #af93d7;
+}
+
+.section-Title {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.section-Title span, .text-colored {
+    color: #fdc500;
+}
+
+ #fale-conosco, #promocao {
+    background-color: #af93d7;
+}
+
+.nav-cardapio .nav-link.active, #fale-conosco button {
+    background-color: #6834d4   ;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #6834d4;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#fale-conosco button{
+    background-color: #6834d4;
+}
+
+
+
+.text-cash {
+    color: #fdc500;
+}
+
+#cardapio .btn-saiba {
+    color: #fff;
+    font-weight: bold;
+    background-color: #fdc500;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
